@@ -35,7 +35,9 @@ const AddUser =()=>{
 
         console.log("hello",userValue);
         AddUserApi(userValue);
+       setTimeout(()=>{
         navigate('/view')
+       },1000) ;
    }
 
  
