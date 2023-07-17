@@ -37,7 +37,7 @@ const AddUser =()=>{
         AddUserApi(userValue);
        setTimeout(()=>{
         navigate('/view')
-       },1000) ;
+       },3000) ;
    }
 
  
