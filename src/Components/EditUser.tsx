@@ -47,7 +47,10 @@ const EditUser =()=>{
    const onEditUserBtnClicked=()=>{
 
         console.log("hello",userValue,id);
-        EditUserApi(userValue,id);
+        setTimeout(()=>{
+          EditUserApi(userValue,id);
+        },3000)
+        
         navigate('/view')
    }
 
